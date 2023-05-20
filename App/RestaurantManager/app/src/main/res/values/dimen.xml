@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="button_corner_radius">40dp</dimen>
+    <dimen name="dialog_horizontal_margin">20dp</dimen>
+    <dimen name="custom_action_bar_height">80dp</dimen>
+</resources>

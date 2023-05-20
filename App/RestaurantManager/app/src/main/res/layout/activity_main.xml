@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_action_bar_height"
+            android:background="#205776"
+            android:paddingTop="4dp"
+            android:paddingBottom="6dp">
+
+                <ImageView
+                    android:id="@+id/iv_side_menu"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/baseline_menu_24" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/my_image_view"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_weight="0"
+                    android:src="@drawable/avar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/drawerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="678dp">
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/fragmentContainerView"
+                    android:name="androidx.navigation.fragment.NavHostFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/teal_700"
+                    app:defaultNavHost="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:navGraph="@navigation/app_navigation" />
+<!--                android:layout_gravity="start"-->
+                <com.google.android.material.navigation.NavigationView
+                    android:id="@+id/navigationView"
+                    android:layout_gravity="start"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green_bg"
+                    android:fitsSystemWindows="true">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:id="@+id/linearLayout7"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="100dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:background="#205776"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent">
+
+                                        <ImageView
+                                            android:id="@+id/imageView2"
+                                            android:layout_width="100dp"
+                                            android:layout_height="100dp"
+                                            android:layout_gravity="center"
+                                            android:layout_weight="0"
+                                            android:foregroundGravity="center"
+                                            android:src="@drawable/chef" />
+
+                                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                                            android:id="@+id/flbtn_logout"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="48dp"
+                                            android:layout_gravity="center"
+                                            android:layout_marginLeft="100dp"
+                                            android:layout_weight="1"
+                                            android:background="#bbfbfc"
+                                            android:clickable="true"
+                                            android:foregroundGravity="center"
+                                            android:src="@drawable/baseline_logout_24"
+                                            app:backgroundTint="#bbfbfc" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:id="@+id/linear_action"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:paddingStart="50dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="20dp"
+                                            android:orientation="horizontal">
+
+                                                <ImageView
+                                                    android:id="@+id/imageView13"
+                                                    android:layout_width="50dp"
+                                                    android:layout_height="50dp"
+                                                    android:layout_weight="0"
+                                                    app:srcCompat="@drawable/baseline_account_circle_24" />
+
+                                                <TextView
+                                                    android:id="@+id/textView6"
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_marginStart="20dp"
+                                                    android:layout_weight="1"
+                                                    android:fontFamily="@font/saira_medium"
+                                                    android:gravity="center_vertical"
+                                                    android:text="My Profile"
+                                                    android:textColor="#fff"
+                                                    android:textSize="24dp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/linear_chat"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="20dp"
+                                            android:orientation="horizontal">
+
+                                                <ImageView
+                                                    android:layout_width="50dp"
+                                                    android:layout_height="50dp"
+                                                    android:layout_weight="0"
+                                                    app:srcCompat="@drawable/ic_baseline_chat_24" />
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_marginStart="20dp"
+                                                    android:layout_weight="1"
+                                                    android:fontFamily="@font/saira_medium"
+                                                    android:gravity="center_vertical"
+                                                    android:text="Chat"
+                                                    android:textColor="#fff"
+                                                    android:textSize="24dp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/linear_menu"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="20dp"
+                                            android:orientation="horizontal">
+
+                                                <ImageView
+                                                    android:layout_width="50dp"
+                                                    android:layout_height="50dp"
+                                                    android:layout_weight="0"
+                                                    app:srcCompat="@drawable/baseline_restaurant_menu_24_black" />
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_marginStart="20dp"
+                                                    android:layout_weight="1"
+                                                    android:fontFamily="@font/saira_medium"
+                                                    android:gravity="center_vertical"
+                                                    android:text="Menu"
+                                                    android:textColor="#fff"
+                                                    android:textSize="24dp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:id="@+id/linearRequest"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="20dp"
+                                            android:orientation="horizontal">
+
+                                                <ImageView
+                                                    android:layout_width="50dp"
+                                                    android:layout_height="50dp"
+                                                    android:layout_weight="0"
+                                                    app:srcCompat="@drawable/ic_baseline_add_alert_24" />
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_marginStart="20dp"
+                                                    android:layout_weight="1"
+                                                    android:fontFamily="@font/saira_medium"
+                                                    android:gravity="center_vertical"
+                                                    android:text="Message"
+                                                    android:textColor="#fff"
+                                                    android:textSize="24dp" />
+                                        </LinearLayout>
+
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="30dp"
+                                    android:layout_marginBottom="30dp"
+                                    android:orientation="horizontal"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent">
+
+                                        <de.hdodenhof.circleimageview.CircleImageView
+                                            android:id="@+id/my_avatar"
+                                            android:layout_width="60dp"
+                                            android:layout_height="60dp"
+                                            android:layout_marginEnd="30dp"
+                                            android:layout_weight="0"
+                                            android:src="@drawable/mypic"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                                <TextView
+                                                    android:id="@+id/tv_name"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_weight="0"
+                                                    android:fontFamily="@font/abril_fatface"
+                                                    android:gravity="center_vertical"
+                                                    android:hint="Viên Nguyễn"
+                                                    android:textColor="#151414"
+                                                    android:textSize="24dp" />
+
+                                                <TextView
+                                                    android:id="@+id/tv_gmail"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:fontFamily="@font/saira_medium"
+                                                    android:gravity="center_vertical"
+                                                    android:hint="viennguyen.280202@gmail.com"
+                                                    android:textColor="#fff" />
+                                        </LinearLayout>
+                                </LinearLayout>
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.navigation.NavigationView>
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_action_bar_height"
+            android:background="@color/blue"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/nav_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imv_home"
+                            android:layout_width="match_parent"
+                            android:layout_height="33dp"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            app:srcCompat="@drawable/ic_baseline_home_24" />
+
+                        <TextView
+                            android:id="@+id/tv_home"
+                            android:layout_width="match_parent"
+                            android:layout_height="32dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/border_bottom_green"
+                            android:fontFamily="@font/abril_fatface"
+                            android:gravity="center"
+                            android:text="Home"
+                            android:textColor="@color/green"
+                            android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nav_serve"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imv_serve"
+                            android:layout_width="match_parent"
+                            android:layout_height="19dp"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            app:srcCompat="@drawable/ic_baseline_local_grocery_store_24" />
+
+                        <TextView
+                            android:id="@+id/tv_serve"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/abril_fatface"
+                            android:gravity="center"
+                            android:text="Serve"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nav_his"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imv_ordered"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            app:srcCompat="@drawable/ic_baseline_restore_24" />
+
+                        <TextView
+                            android:id="@+id/tv_ordered"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/abril_fatface"
+                            android:gravity="center"
+                            android:text="History Order"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nav_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imv_acc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingTop="5dp"
+                            app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                        <TextView
+                            android:id="@+id/tv_acc"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/abril_fatface"
+                            android:gravity="center"
+                            android:text="Account"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

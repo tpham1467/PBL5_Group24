@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/homenav">
+    <fragment
+        android:id="@+id/homenav"
+        android:name="com.midterm.restaurant_app.view.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homenav_to_serveFragment"
+            app:destination="@id/serveFragment" />
+        <action
+            android:id="@+id/action_homenav_to_hisOrderFragment"
+            app:destination="@id/hisOrderFragment" />
+        <action
+            android:id="@+id/action_homenav_to_account"
+            app:destination="@id/accountFragment" />
+        <action
+            android:id="@+id/action_homenav_to_menuFoodFragment"
+            app:destination="@id/menuFoodFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.midterm.restaurant_app.view.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_account_to_home2"
+            app:destination="@id/homenav" />
+    </fragment>
+    <fragment
+        android:id="@+id/serveFragment"
+        android:name="com.midterm.restaurant_app.view.ServeFragment"
+        android:label="fragment_serve"
+        tools:layout="@layout/fragment_serve" >
+        <action
+            android:id="@+id/action_serveFragment_to_detailsOrderFragment"
+            app:destination="@id/detailsOrderFragment" />
+        <action
+            android:id="@+id/action_serveFragment_to_homenav"
+            app:destination="@id/homenav" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsOrderFragment"
+        android:name="com.midterm.restaurant_app.view.DetailsOrderFragment"
+        android:label="fragment_details_order"
+        tools:layout="@layout/fragment_detail_serve">
+
+        <action
+            android:id="@+id/action_detailsOrderFragment_to_serveFragment"
+            app:destination="@id/serveFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/hisOrderFragment"
+        android:name="com.midterm.restaurant_app.view.HisOrderFragment"
+        android:label="fragment_his_order"
+        tools:layout="@layout/fragment_his_order" >
+        <action
+            android:id="@+id/action_hisOrderFragment_to_detailHisOrderFragment"
+            app:destination="@id/detailHisOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailHisOrderFragment"
+        android:name="com.midterm.restaurant_app.view.HisDetailOrder"
+        android:label="fragment_detail_his_order"
+        tools:layout="@layout/fragment_detail_his_order" >
+        <action
+            android:id="@+id/action_detailHisOrderFragment_to_hisOrderFragment"
+            app:destination="@id/hisOrderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFoodFragment"
+        android:name="com.midterm.restaurant_app.view.MenuFoodFragment"
+        android:label="fragment_menu_food"
+        tools:layout="@layout/fragment_menu_food" >
+        <action
+            android:id="@+id/action_menuFoodFragment_to_homenav"
+            app:destination="@id/homenav" />
+    </fragment>
+    <fragment
+        android:id="@+id/alertRequest"
+        android:name="com.midterm.restaurant_app.view.AlertRequest"
+        android:label="fragment_alert_request"
+        tools:layout="@layout/fragment_alert_request" >
+        <action
+            android:id="@+id/action_alertFragment_to_homenav"
+            app:destination="@id/homenav" />
+    </fragment>
+</navigation>
