@@ -1,0 +1,10 @@
+Name          Accuracy  Classification error
+----------  ----------  ----------------------
+Tương Ớt      1         []
+Nước Tương    1         []
+Hủy           1         []
+Thêm          1         []
+Cần           1         []
+Xem           1         []
+Nhân Viên     1         []
+Menu          0.833333  ['Tương Ớt']

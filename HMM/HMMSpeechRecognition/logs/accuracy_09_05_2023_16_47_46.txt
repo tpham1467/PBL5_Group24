@@ -1,0 +1,4 @@
+Name         Accuracy  Classification error
+---------  ----------  ----------------------
+Nhân Viên    1         []
+Menu         0.833333  ['Nhân Viên']

@@ -1,0 +1,127 @@
+Dataset/test/201.wav,Hủy Gà Quay
+Dataset/test/202.wav,Hủy Bún Bò
+Dataset/test/203.wav,Hủy Mỳ Quảng
+Dataset/test/204.wav,Hủy Thịt Nướng
+Dataset/test/205.wav,Hủy Gỏi Cá
+Dataset/test/206.wav,Hủy Mực Hấp
+Dataset/test/207.wav,Hủy Canh Chua
+Dataset/test/208.wav,Hủy Cá Hồi
+Dataset/test/209.wav,Hủy Nước Cam
+Dataset/test/210.wav,Hủy Nước Suối
+Dataset/test/211.wav,Hủy Rau Trộn
+Dataset/test/212.wav,Thêm Một Gà Quay
+Dataset/test/213.wav,Thêm Một Bún Bò
+Dataset/test/214.wav,Thêm Một Mỳ Quảng
+Dataset/test/215.wav,Thêm Một Thịt Nướng
+Dataset/test/216.wav,Thêm Một Gỏi Cá
+Dataset/test/217.wav,Thêm Một Mực Hấp
+Dataset/test/218.wav,Thêm Một Canh Chua
+Dataset/test/219.wav,Thêm Một Cá Hồi
+Dataset/test/220.wav,Thêm Một Nước Cam
+Dataset/test/221.wav,Thêm Một Nước Suối
+Dataset/test/222.wav,Thêm Một Rau Trộn
+Dataset/test/223.wav,Thêm Hai Gà Quay
+Dataset/test/224.wav,Thêm Hai Bún Bò
+Dataset/test/225.wav,Thêm Hai Mỳ Quảng
+Dataset/test/226.wav,Thêm Hai Thịt Nướng
+Dataset/test/227.wav,Thêm Hai Gỏi Cá
+Dataset/test/228.wav,Thêm Hai Mực Hấp
+Dataset/test/229.wav,Thêm Hai Canh Chua
+Dataset/test/230.wav,Thêm Hai Cá Hồi
+Dataset/test/231.wav,Thêm Hai Nước Cam
+Dataset/test/232.wav,Thêm Hai Nước Suối
+Dataset/test/233.wav,Thêm Hai Rau Trộn
+Dataset/test/234.wav,Thêm Ba Gà Quay
+Dataset/test/235.wav,Thêm Ba Bún Bò
+Dataset/test/236.wav,Thêm Ba Mỳ Quảng
+Dataset/test/237.wav,Thêm Ba Thịt Nướng
+Dataset/test/238.wav,Thêm Ba Gỏi Cá
+Dataset/test/239.wav,Thêm Ba Mực Hấp
+Dataset/test/240.wav,Thêm Ba Canh Chua
+Dataset/test/241.wav,Thêm Ba Cá Hồi
+Dataset/test/242.wav,Thêm Ba Nước Cam
+Dataset/test/243.wav,Thêm Ba Nước Suối
+Dataset/test/244.wav,Thêm Ba Rau Trộn
+Dataset/test/245.wav,Thêm Bốn Gà Quay
+Dataset/test/246.wav,Thêm Bốn Bún Bò
+Dataset/test/247.wav,Thêm Bốn Mỳ Quảng
+Dataset/test/248.wav,Thêm Bốn Thịt Nướng
+Dataset/test/249.wav,Thêm Bốn Gỏi Cá
+Dataset/test/250.wav,Thêm Bốn Mực Hấp
+Dataset/test/251.wav,Thêm Bốn Canh Chua
+Dataset/test/252.wav,Thêm Bốn Cá Hồi
+Dataset/test/253.wav,Thêm Bốn Nước Cam
+Dataset/test/254.wav,Thêm Bốn Nước Suối
+Dataset/test/255.wav,Thêm Bốn Rau Trộn
+Dataset/test/256.wav,Thêm Năm Gà Quay
+Dataset/test/257.wav,Thêm Năm Bún Bò
+Dataset/test/258.wav,Thêm Năm Mỳ Quảng
+Dataset/test/259.wav,Thêm Năm Thịt Nướng
+Dataset/test/260.wav,Thêm Năm Gỏi Cá
+Dataset/test/261.wav,Thêm Năm Mực Hấp
+Dataset/test/262.wav,Thêm Năm Canh Chua
+Dataset/test/263.wav,Thêm Năm Cá Hồi
+Dataset/test/264.wav,Thêm Năm Nước Cam
+Dataset/test/265.wav,Thêm Năm Nước Suối
+Dataset/test/266.wav,Thêm Năm Rau Trộn
+Dataset/test/267.wav,Thêm Sáu Gà Quay
+Dataset/test/268.wav,Thêm Sáu Bún Bò
+Dataset/test/269.wav,Thêm Sáu Mỳ Quảng
+Dataset/test/270.wav,Thêm Sáu Thịt Nướng
+Dataset/test/271.wav,Thêm Sáu Gỏi Cá
+Dataset/test/272.wav,Thêm Sáu Mực Hấp
+Dataset/test/273.wav,Thêm Sáu Canh Chua
+Dataset/test/274.wav,Thêm Sáu Cá Hồi
+Dataset/test/275.wav,Thêm Sáu Nước Cam
+Dataset/test/276.wav,Thêm Sáu Nước Suối
+Dataset/test/277.wav,Thêm Sáu Rau Trộn
+Dataset/test/278.wav,Thêm Bảy Gà Quay
+Dataset/test/279.wav,Thêm Bảy Bún Bò
+Dataset/test/280.wav,Thêm Bảy Mỳ Quảng
+Dataset/test/281.wav,Thêm Bảy Thịt Nướng
+Dataset/test/282.wav,Thêm Bảy Gỏi Cá
+Dataset/test/283.wav,Thêm Bảy Mực Hấp
+Dataset/test/284.wav,Thêm Bảy Canh Chua
+Dataset/test/285.wav,Thêm Bảy Cá Hồi
+Dataset/test/286.wav,Thêm Bảy Nước Cam
+Dataset/test/287.wav,Thêm Bảy Nước Suối
+Dataset/test/288.wav,Thêm Bảy Rau Trộn
+Dataset/test/289.wav,Thêm Tám Gà Quay
+Dataset/test/290.wav,Thêm Tám Bún Bò
+Dataset/test/291.wav,Thêm Tám Mỳ Quảng
+Dataset/test/292.wav,Thêm Tám Thịt Nướng
+Dataset/test/293.wav,Thêm Tám Gỏi Cá
+Dataset/test/294.wav,Thêm Tám Mực Hấp
+Dataset/test/295.wav,Thêm Tám Canh Chua
+Dataset/test/296.wav,Thêm Tám Cá Hồi
+Dataset/test/297.wav,Thêm Tám Nước Cam
+Dataset/test/298.wav,Thêm Tám Nước Suối
+Dataset/test/299.wav,Thêm Tám Rau Trộn
+Dataset/test/300.wav,Thêm Chín Gà Quay
+Dataset/test/301.wav,Thêm Chín Bún Bò
+Dataset/test/302.wav,Thêm Chín Mỳ Quảng
+Dataset/test/303.wav,Thêm Chín Thịt Nướng
+Dataset/test/304.wav,Thêm Chín Gỏi Cá
+Dataset/test/305.wav,Thêm Chín Mực Hấp
+Dataset/test/306.wav,Thêm Chín Canh Chua
+Dataset/test/307.wav,Thêm Chín Cá Hồi
+Dataset/test/308.wav,Thêm Chín Nước Cam
+Dataset/test/309.wav,Thêm Chín Nước Suối
+Dataset/test/311.wav,Thêm Chín Rau Trộn
+Dataset/test/312.wav,Thêm Mười Gà Quay
+Dataset/test/313.wav,Thêm Mười Bún Bò
+Dataset/test/314.wav,Thêm Mười Mỳ Quảng
+Dataset/test/315.wav,Thêm Mười Thịt Nướng
+Dataset/test/316.wav,Thêm Mười Gỏi Cá
+Dataset/test/317.wav,Thêm Mười Mực Hấp
+Dataset/test/318.wav,Thêm Mười Canh Chua
+Dataset/test/319.wav,Thêm Mười Cá Hồi
+Dataset/test/320.wav,Thêm Mười Nước Cam
+Dataset/test/321.wav,Thêm Mười Nước Suối
+Dataset/test/322.wav,Thêm Mười Rau Trộn
+Dataset/test/323.wav,Cần Tương Ớt
+Dataset/test/324.wav,Cần Nước Nắm
+Dataset/test/325.wav,Cần Nước Tương
+Dataset/test/326.wav,Cần Nhân Viên
+Dataset/test/327.wav,Xem Menu
+Dataset/test/328.wav,Xem Order

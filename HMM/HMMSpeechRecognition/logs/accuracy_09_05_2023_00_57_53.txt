@@ -1,0 +1,16 @@
+Name          Accuracy  Classification error
+----------  ----------  ----------------------
+Một           1         []
+Hai           0.933333  ['Cần']
+Ba            0.933333  ['Bún Bò']
+Bún Bò        1         []
+Mỳ Quảng      1         []
+Mực Hấp       1         []
+Tương Ớt      0.933333  ['Nước Tương']
+Nước Tương    1         []
+Hủy           1         []
+Thêm          1         []
+Cần           1         []
+Xem           1         []
+Nhân Viên     1         []
+Menu          0.833333  ['Một']

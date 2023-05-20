@@ -1,0 +1,63 @@
+Dataset/test/Huybunbo.wav,H?y Bún Bò
+Dataset/test/Huymyquang.wav,H?y M? Qu?ng
+Dataset/test/Huythitnuong.wav,H?y Th?t N??ng
+Dataset/test/Huymuchap.wav,H?y M?c H?p
+Dataset/test/Themmotbunbo.wav,Thêm M?t Bún Bò
+Dataset/test/Themmotmyquang.wav,Thêm M?t M? Qu?ng
+Dataset/test/Themmotthitnuong.wav,Thêm M?t Th?t N??ng
+Dataset/test/Themmotmuchap.wav,Thêm M?t M?c H?p
+Dataset/test/Themhaibunbo.wav,Thêm Hai Bún Bò
+Dataset/test/Themhaimyquang.wav,Thêm Hai M? Qu?ng
+Dataset/test/Themhaimuchap.wav,Thêm Hai M?c H?p
+Dataset/test/Thembabunbo.wav,Thêm Ba Bún Bò
+Dataset/test/Thembamyquang.wav,Thêm Ba M? Qu?ng
+Dataset/test/Thembathitnuong.wav,Thêm Ba Th?t N??ng
+Dataset/test/Thembamuchap.wav,Thêm Ba M?c H?p
+Dataset/test/Thembonbunbo.wav,Thêm B?n Bún Bò
+Dataset/test/Thembonmyquang.wav,Thêm B?n M? Qu?ng
+Dataset/test/Thembonthitnuong.wav,Thêm B?n Th?t N??ng
+Dataset/test/Thembonmuchap.wav,Thêm B?n M?c H?p
+Dataset/test/Themnambunbo.wav,Thêm N?m Bún Bò
+Dataset/test/Themnammyquang.wav,Thêm N?m M? Qu?ng
+Dataset/test/Themnamthitnuong.wav,Thêm N?m Th?t N??ng
+Dataset/test/Themnammuchap.wav,Thêm N?m M?c H?p
+Dataset/test/Themsaubunbo.wav,Thêm Sáu Bún Bò
+Dataset/test/Themsaumyquang.wav,Thêm Sáu M? Qu?ng
+Dataset/test/Themsauthitnuong.wav,Thêm Sáu Th?t N??ng
+Dataset/test/Themsaumuchap.wav,Thêm Sáu M?c H?p
+Dataset/test/Cantuongot.wav,C?n T??ng ?t
+Dataset/test/Cannuoctuong.wav,C?n N??c T??ng
+Dataset/test/Cannhanvien.wav,C?n Nhân Viên
+Dataset/test/Xemorder.wav,Xem Order
+Dataset/test/Huybunbo2.wav,H?y Bún Bò
+Dataset/test/Huymyquang2.wav,H?y M? Qu?ng
+Dataset/test/Huythitnuong2.wav,H?y Th?t N??ng
+Dataset/test/Huymuchap2.wav,H?y M?c H?p
+Dataset/test/Themmotbunbo2.wav,Thêm M?t Bún Bò
+Dataset/test/Themmotmyquang2.wav,Thêm M?t M? Qu?ng
+Dataset/test/Themmotthitnuong2.wav,Thêm M?t Th?t N??ng
+Dataset/test/Themmotmuchap2.wav,Thêm M?t M?c H?p
+Dataset/test/Themhaibunbo2.wav,Thêm Hai Bún Bò
+Dataset/test/Themhaimyquang2.wav,Thêm Hai M? Qu?ng
+Dataset/test/Themhaithitnuong2.wav,Thêm Hai Th?t N??ng
+Dataset/test/Themhaimuchap2.wav,Thêm Hai M?c H?p
+Dataset/test/Thembabunbo2.wav,Thêm Ba Bún Bò
+Dataset/test/Thembamyquang2.wav,Thêm Ba M? Qu?ng
+Dataset/test/Thembathitnuong2.wav,Thêm Ba Th?t N??ng
+Dataset/test/Thembamuchap2.wav,Thêm Ba M?c H?p
+Dataset/test/Thembonbunbo2.wav,Thêm B?n Bún Bò
+Dataset/test/Thembonmyquang2.wav,Thêm B?n M? Qu?ng
+Dataset/test/Thembonthitnuong2.wav,Thêm B?n Th?t N??ng
+Dataset/test/Thembonmuchap2.wav,Thêm B?n M?c H?p
+Dataset/test/Themnambunbo2.wav,Thêm N?m Bún Bò
+Dataset/test/Themnammyquang2.wav,Thêm N?m M? Qu?ng
+Dataset/test/Themnamthitnuong2.wav,Thêm N?m Th?t N??ng
+Dataset/test/Themnammuchap2.wav,Thêm N?m M?c H?p
+Dataset/test/Themsaubunbo2.wav,Thêm Sáu Bún Bò
+Dataset/test/Themsaumyquang2.wav,Thêm Sáu M? Qu?ng
+Dataset/test/Themsauthitnuong2.wav,Thêm Sáu Th?t N??ng
+Dataset/test/Themsaumuchap2.wav,Thêm Sáu M?c H?p
+Dataset/test/Cantuongot2.wav,C?n T??ng ?t
+Dataset/test/Cannuoctuong2.wav,C?n N??c T??ng
+Dataset/test/Cannhanvien2.wav,C?n Nhân Viên
+Dataset/test/Xemorder2.wav,Xem Order

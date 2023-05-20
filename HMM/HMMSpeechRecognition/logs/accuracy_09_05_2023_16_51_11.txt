@@ -1,0 +1,4 @@
+Name      Accuracy  Classification error
+------  ----------  ----------------------
+Một       0.933333  ['Bốn']
+Bốn       1         []
