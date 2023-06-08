@@ -1,0 +1,127 @@
+Dataset/test/01Label.txt,Hủy Gà Quay
+Dataset/test/02Label.txt,Hủy Bún Bò
+Dataset/test/03Label.txt,Hủy Mỳ Quảng
+Dataset/test/04Label.txt,Hủy Thịt Nướng
+Dataset/test/05Label.txt,Hủy Gỏi Cá
+Dataset/test/06Label.txt,Hủy Mực Hấp
+Dataset/test/07Label.txt,Hủy Canh Chua
+Dataset/test/08Label.txt,Hủy Cá Hồi
+Dataset/test/09Label.txt,Hủy Nước Cam
+Dataset/test/10Label.txt,Hủy Nước Suối
+Dataset/test/11Label.txt,Hủy Rau Trộn
+Dataset/test/12Label.txt,Thêm Một Gà Quay
+Dataset/test/13Label.txt,Thêm Một Bún Bò
+Dataset/test/14Label.txt,Thêm Một Mỳ Quảng
+Dataset/test/15Label.txt,Thêm Một Thịt Nướng
+Dataset/test/16Label.txt,Thêm Một Gỏi Cá
+Dataset/test/17Label.txt,Thêm Một Mực Hấp
+Dataset/test/18Label.txt,Thêm Một Canh Chua
+Dataset/test/19Label.txt,Thêm Một Cá Hồi
+Dataset/test/20Label.txt,Thêm Một Nước Cam
+Dataset/test/21Label.txt,Thêm Một Nước Suối
+Dataset/test/22Label.txt,Thêm Một Rau Trộn
+Dataset/test/23Label.txt,Thêm Hai Gà Quay
+Dataset/test/24Label.txt,Thêm Hai Bún Bò
+Dataset/test/25Label.txt,Thêm Hai Mỳ Quảng
+Dataset/test/26Label.txt,Thêm Hai Thịt Nướng
+Dataset/test/27Label.txt,Thêm Hai Gỏi Cá
+Dataset/test/28Label.txt,Thêm Hai Mực Hấp
+Dataset/test/29Label.txt,Thêm Hai Canh Chua
+Dataset/test/30Label.txt,Thêm Hai Cá Hồi
+Dataset/test/31Label.txt,Thêm Hai Nước Cam
+Dataset/test/32Label.txt,Thêm Hai Nước Suối
+Dataset/test/33Label.txt,Thêm Hai Rau Trộn
+Dataset/test/34Label.txt,Thêm Ba Gà Quay
+Dataset/test/35Label.txt,Thêm Ba Bún Bò
+Dataset/test/36Label.txt,Thêm Ba Mỳ Quảng
+Dataset/test/37Label.txt,Thêm Ba Thịt Nướng
+Dataset/test/38Label.txt,Thêm Ba Gỏi Cá
+Dataset/test/39Label.txt,Thêm Ba Mực Hấp
+Dataset/test/40Label.txt,Thêm Ba Canh Chua
+Dataset/test/41Label.txt,Thêm Ba Cá Hồi
+Dataset/test/42Label.txt,Thêm Ba Nước Cam
+Dataset/test/43Label.txt,Thêm Ba Nước Suối
+Dataset/test/44Label.txt,Thêm Ba Rau Trộn
+Dataset/test/45Label.txt,Thêm Bốn Gà Quay
+Dataset/test/46Label.txt,Thêm Bốn Bún Bò
+Dataset/test/47Label.txt,Thêm Bốn Mỳ Quảng
+Dataset/test/48Label.txt,Thêm Bốn Thịt Nướng
+Dataset/test/49Label.txt,Thêm Bốn Gỏi Cá
+Dataset/test/50Label.txt,Thêm Bốn Mực Hấp
+Dataset/test/51Label.txt,Thêm Bốn Canh Chua
+Dataset/test/52Label.txt,Thêm Bốn Cá Hồi
+Dataset/test/53Label.txt,Thêm Bốn Nước Cam
+Dataset/test/54Label.txt,Thêm Bốn Nước Suối
+Dataset/test/55Label.txt,Thêm Bốn Rau Trộn
+Dataset/test/56Label.txt,Thêm Năm Gà Quay
+Dataset/test/57Label.txt,Thêm Năm Bún Bò
+Dataset/test/58Label.txt,Thêm Năm Mỳ Quảng
+Dataset/test/59Label.txt,Thêm Năm Thịt Nướng
+Dataset/test/60Label.txt,Thêm Năm Gỏi Cá
+Dataset/test/61Label.txt,Thêm Năm Mực Hấp
+Dataset/test/62Label.txt,Thêm Năm Canh Chua
+Dataset/test/63Label.txt,Thêm Năm Cá Hồi
+Dataset/test/64Label.txt,Thêm Năm Nước Cam
+Dataset/test/65Label.txt,Thêm Năm Nước Suối
+Dataset/test/66Label.txt,Thêm Năm Rau Trộn
+Dataset/test/67Label.txt,Thêm Sáu Gà Quay
+Dataset/test/68Label.txt,Thêm Sáu Bún Bò
+Dataset/test/69Label.txt,Thêm Sáu Mỳ Quảng
+Dataset/test/70Label.txt,Thêm Sáu Thịt Nướng
+Dataset/test/71Label.txt,Thêm Sáu Gỏi Cá
+Dataset/test/72Label.txt,Thêm Sáu Mực Hấp
+Dataset/test/73Label.txt,Thêm Sáu Canh Chua
+Dataset/test/74Label.txt,Thêm Sáu Cá Hồi
+Dataset/test/75Label.txt,Thêm Sáu Nước Cam
+Dataset/test/76Label.txt,Thêm Sáu Nước Suối
+Dataset/test/77Label.txt,Thêm Sáu Rau Trộn
+Dataset/test/78Label.txt,Thêm Bảy Gà Quay
+Dataset/test/79Label.txt,Thêm Bảy Bún Bò
+Dataset/test/80Label.txt,Thêm Bảy Mỳ Quảng
+Dataset/test/81Label.txt,Thêm Bảy Thịt Nướng
+Dataset/test/82Label.txt,Thêm Bảy Gỏi Cá
+Dataset/test/83Label.txt,Thêm Bảy Mực Hấp
+Dataset/test/84Label.txt,Thêm Bảy Canh Chua
+Dataset/test/85Label.txt,Thêm Bảy Cá Hồi
+Dataset/test/86Label.txt,Thêm Bảy Nước Cam
+Dataset/test/87Label.txt,Thêm Bảy Nước Suối
+Dataset/test/88Label.txt,Thêm Bảy Rau Trộn
+Dataset/test/89Label.txt,Thêm Tám Gà Quay
+Dataset/test/90Label.txt,Thêm Tám Bún Bò
+Dataset/test/91Label.txt,Thêm Tám Mỳ Quảng
+Dataset/test/92Label.txt,Thêm Tám Thịt Nướng
+Dataset/test/93Label.txt,Thêm Tám Gỏi Cá
+Dataset/test/94Label.txt,Thêm Tám Mực Hấp
+Dataset/test/95Label.txt,Thêm Tám Canh Chua
+Dataset/test/96Label.txt,Thêm Tám Cá Hồi
+Dataset/test/97Label.txt,Thêm Tám Nước Cam
+Dataset/test/98Label.txt,Thêm Tám Nước Suối
+Dataset/test/99Label.txt,Thêm Tám Rau Trộn
+Dataset/test/100Label.txt,Thêm Chín Gà Quay
+Dataset/test/101Label.txt,Thêm Chín Bún Bò
+Dataset/test/102Label.txt,Thêm Chín Mỳ Quảng
+Dataset/test/103Label.txt,Thêm Chín Thịt Nướng
+Dataset/test/104Label.txt,Thêm Chín Gỏi Cá
+Dataset/test/105Label.txt,Thêm Chín Mực Hấp
+Dataset/test/106Label.txt,Thêm Chín Canh Chua
+Dataset/test/107Label.txt,Thêm Chín Cá Hồi
+Dataset/test/108Label.txt,Thêm Chín Nước Cam
+Dataset/test/109Label.txt,Thêm Chín Nước Suối
+Dataset/test/110Label.txt,Thêm Chín Rau Trộn
+Dataset/test/111Label.txt,Thêm Mười Gà Quay
+Dataset/test/112Label.txt,Thêm Mười Bún Bò
+Dataset/test/113Label.txt,Thêm Mười Mỳ Quảng
+Dataset/test/114Label.txt,Thêm Mười Thịt Nướng
+Dataset/test/115Label.txt,Thêm Mười Gỏi Cá
+Dataset/test/116Label.txt,Thêm Mười Mực Hấp
+Dataset/test/117Label.txt,Thêm Mười Canh Chua
+Dataset/test/118Label.txt,Thêm Mười Cá Hồi
+Dataset/test/119Label.txt,Thêm Mười Nước Cam
+Dataset/test/120Label.txt,Thêm Mười Nước Suối
+Dataset/test/121Label.txt,Thêm Mười Rau Trộn
+Dataset/test/122Label.txt,Cần Tương Ớt
+Dataset/test/123Label.txt,Cần Nước Nắm
+Dataset/test/124Label.txt,Cần Nước Tương
+Dataset/test/125Label.txt,Cần Nhân Viên
+Dataset/test/126Label.txt,Xem Menu
+Dataset/test/127Label.txt,Xem Order

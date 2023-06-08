@@ -5,6 +5,7 @@ import warnings
 from pathlib import Path
 import logging
 
+import pandas as pandas
 import seaborn as sns
 from matplotlib import pyplot as plt
 
@@ -16,8 +17,10 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 import preprocessing
-
-
+import pandas
+import time
+from sklearn import metrics
+from tabulate import tabulate
 
 
 class Word(object):
@@ -382,29 +385,24 @@ logging.getLogger("hmmlearn").setLevel("CRITICAL")
 
 
 
-# Train Model
-#  gmm = GMM(words)
-# # gmm.init_model()
-# gmm.sentences.remove('')
-# # gmm.train()
-# gmm.DrawConvergence)
-# # gmm.get_accuracy(savepath='logs')
-# gmm.create_sentence()
-# gmm.combine_model()
-# gmm.save_model(path='models_train/model.pkl')
+
 
 if __name__ == '__main__':
+
+    # Train Model
     gmm = GMM(words)
-    with open('models_train/model.pkl', 'rb') as f:
-        gmm = pickle.load(f)
+    gmm.init_model()
+    gmm.sentences.remove('')
+    gmm.train()
+    gmm.DrawConvergence()
+    gmm.get_accuracy(savepath='logs')
+    gmm.create_sentence()
+    gmm.combine_model()
+    gmm.save_model(path='models_train/model.pkl')
 
-    import pandas
-    import time
-    from sklearn import metrics
-    from tabulate import tabulate
 
+    # Eluavate Model
     df = pandas.read_csv('Dataset/Sentence_test.txt')
-
     error = 0
     y_true = []
     y_pred = []
@@ -453,37 +451,5 @@ if __name__ == '__main__':
     from statistics import mean
     print(mean(time_predict))
 
-    # # for i in range(1,4):
-    # #     print()
-    # #     print(gmm.predict_file('temp/them1thitnuong{}.wav'.format(i)))
-    #
-    # print()
-    # for i in range(1,4):
-    #     print()
-    #     print(gmm.predict_file('temp/them1muchap{}.wav'.format(i)))
-    # print()
-    # for i in range(1,5):
-    #     print()
-    #     print(gmm.predict_file('temp/them1miquang{}.wav'.format(i)))
-    #
-    # print()
-    # # for i in range(1,4):
-    # #     print()
-    # #     print(gmm.predict_file('temp/them1goica{}.wav'.format(i)))
-    # print()
-    # # for i in range(1,6):
-    # #     print()
-    # #     print(gmm.predict_file('temp/them1gaquay{}.wav'.format(i)))
-    # print()
-    # # for i in range(1,3):
-    # #     print()
-    # #     print(gmm.predict_file('temp/them1canhchua{}.wav'.format(i)))
-    # print()
-    # for i in range(1,5):
-    #     print()
-    #     print(gmm.predict_file('temp/them1bunbo{}.wav'.format(i)))
-
-    # record()
-    # print(gmm.predict_file('temp/trimmed.wav'))
 
 
