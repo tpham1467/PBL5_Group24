@@ -43,7 +43,7 @@
  + Training mô hình HMM: [HMM](https://github.com/tpham1467/Robot-waitress/blob/main/HMM/HMMSpeechRecognition/README.md)
  + Setup Robot: [Robot](https://github.com/tpham1467/Robot-waitress/blob/main/Robot/README.md)
 
-# Demo [Link](https://drive.google.com/file/d/1tLvUo7U4pSyb8L2YUeqocT2AOkOef6s4/view)
+# [Demo](https://drive.google.com/file/d/1tLvUo7U4pSyb8L2YUeqocT2AOkOef6s4/view)
 
 
 
