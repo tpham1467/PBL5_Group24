@@ -12,8 +12,6 @@
 | `App`                | `Android`                        | 
 | `Speech recognition` | `Hideen Markov Model`            |
 | `Robot`              | `Following Line by intersection` |
-
-- Linh kiện sử dung: 
   
 # Setup 
 - Cấu trúc dự án
